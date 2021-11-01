@@ -16,7 +16,7 @@ const calculateResult = (num1, num2, operation) => {
             return num1 - num2;
     }
 }
-
+ 
 const reducer = (state, action) => {
     switch(action.type) {
         case(ADD_ONE):
